@@ -110,7 +110,6 @@ logo1 = """
                                                 
                                                 
                                                 
-                                                
                                                    
    
                                                                                        
@@ -143,8 +142,8 @@ logo2 = """
 ║OWNER 💓💓💓  Qink Tricker (RK)                              ║
 ║  GITHUB 💝💝💝 QINKG-TRICKER                             ║
 ║ FACEBOOK 💝💝💝QINKG-TRICKER                  ║
-║  ENJOY 💝💝💝Pak Cloning                             ║
-║   Note 💝💝💝Use Fastest Speed Net             ║
+║  ENJOY 💓💓💓Pak Cloning                             ║
+║   Note 💓💓💝Use Fastest Speed Net             ║
 ╚══──────────────────────────╝─══╝
 """
 print("""
@@ -355,6 +354,7 @@ def action():
                                                                                                                                                                                                     [...]
                                                                                                                                                                                                     [...]
                                                                                                                                                                                                     [...]
+
 
 
 
