@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python2
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
@@ -40,7 +40,7 @@ br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Buil
 
 def keluar():
 	print 'Thanks.'
-	os.sys.exit()
+	oos.sys.exit()
 
 def acak(b):
     w = 'ahtdzjc'
@@ -109,7 +109,6 @@ logo1 = """
                                                 
                                                 
                                                 
-                                                
                                                    
    
                                                                                        
@@ -119,8 +118,8 @@ logo1 = """
 ║OWNER 💓💓💓  Qink Tricker (QT)                              ║
 ║  GITHUB 💝💝💝 QINKG-TRICKER                             ║
 ║ FACEBOOK 💝💝💝QINKG-TRICKER                  ║
-║  ENJOY 💝💝💓Pak Cloning                             ║
-║   Note 💝💝💝Use Fastest Speed Net             ║
+║  ENJOY 💓💓💓Pak Cloning                             ║
+║   Note 💓💓💓Use Fastest Speed Net             ║
 ╚══──────────────────────────╝─══╝
 
 """
@@ -133,8 +132,8 @@ logo2 = """
    ██║   ██║  ██║██║╚██████╗██║  ██╗███████╗██║  ██║    
    ╚═╝   ╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝    
                                                          
-                                                              
-                                                     
+                                                               
+                                                      
                                        ON MY SCRIPT
                                       QINKG TRICKER           
                                         TNX(QT)
@@ -354,6 +353,9 @@ def action():
                                                                                                                                                                                                     [...]
                                                                                                                                                                                                     [...]
                                                                                                                                                                                                     [...]
+
+
+
 
 
 
